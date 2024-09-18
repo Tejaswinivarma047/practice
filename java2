@@ -1,0 +1,20 @@
+import java.util.*;
+public class Java1
+{
+ public static void main(String[] args)
+ {
+  
+  Scanner sc=new Scanner(System.in);
+  int n=sc.nextInt();
+  System.out.print("Enter the n value:");
+  
+  if(n%2==0)
+  {
+   System.out.print("The entered value is even");
+  }
+  else
+  {
+   System.out.print("The entered value is odd");
+  }
+ }
+}
