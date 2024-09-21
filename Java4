@@ -5,16 +5,20 @@ public class Java5.java
  {
   int f1=0,f2=1,f3,i,count=0;
   Scanner sc=new Scanner(System.in);
-  System.out.println("Enter the range:");
-  count sc=nextInt();
+  System.out.println("Fibonacci series:");
+  System.out.println(+f1);
+  System.out.println(+f2);
   for(i=3;i<=count;i++)
   {
    f3=f1+f2;
    f1=f2;
    f2=f3;
-   System.out.println(f1+""f2+""f3+);
+   System.out.println(+f3);
   }
  }
 }
+ 
+
+
  
 
