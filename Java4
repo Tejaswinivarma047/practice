@@ -1,0 +1,20 @@
+import java.util.*;
+public class Java5.java
+{
+ public static void main(String[] args)
+ {
+  int f1=0,f2=1,f3,i,count=0;
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter the range:");
+  count sc=nextInt();
+  for(i=3;i<=count;i++)
+  {
+   f3=f1+f2;
+   f1=f2;
+   f2=f3;
+   System.out.println(f1+""f2+""f3+);
+  }
+ }
+}
+ 
+
