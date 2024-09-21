@@ -1,0 +1,19 @@
+import java.util.*;
+public class Java7
+{
+ public static void main(String[] args)
+ {
+  int a,b,temp;
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter a value:");
+  a=sc.nextInt();
+  System.out.println("Enter b value:");
+  b=sc.nextInt();
+  System.out.println("Before Swapping:"+a+""+b);
+  temp=b;
+  b=a;
+  a=temp;
+  System.out.println("After Swapping:"+a+""+b);
+ }
+}
+                                            
